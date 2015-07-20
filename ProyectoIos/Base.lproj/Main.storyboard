@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rS3-R9-Ivy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BPK-0u-6b8">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="9MK-fC-bnp">
+            <objects>
+                <viewController id="BPK-0u-6b8" customClass="WelcomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xeb-K8-xDY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gfj-Il-4OG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e8r-9i-IDf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3c-WH-nAS">
+                                <rect key="frame" x="116" y="423" width="368" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="Ingresar">
+                                    <color key="titleColor" red="0.94117653369999998" green="0.0" blue="0.09803922474" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="siguiente:" destination="BPK-0u-6b8" eventType="touchUpInside" id="9kv-hg-Hvi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bienvenido" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPX-4k-xCG">
+                                <rect key="frame" x="16" y="374" width="568" height="21"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
+                                <color key="textColor" red="0.12549020349979401" green="0.070588238537311554" blue="0.062745101749897003" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="alucomex.png" translatesAutoresizingMaskIntoConstraints="NO" id="BeU-Co-6Wo">
+                                <rect key="frame" x="46" y="169" width="508" height="124"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RPX-4k-xCG" firstAttribute="top" secondItem="BeU-Co-6Wo" secondAttribute="bottom" constant="81" id="6uI-nM-jkD"/>
+                            <constraint firstItem="Gfj-Il-4OG" firstAttribute="top" secondItem="R3c-WH-nAS" secondAttribute="bottom" constant="147" id="Avc-Wv-24x"/>
+                            <constraint firstItem="R3c-WH-nAS" firstAttribute="leading" secondItem="e8r-9i-IDf" secondAttribute="leadingMargin" constant="100" id="IGR-dg-Z14"/>
+                            <constraint firstItem="BeU-Co-6Wo" firstAttribute="top" secondItem="Xeb-K8-xDY" secondAttribute="bottom" constant="149" id="Ryb-cY-5sP"/>
+                            <constraint firstItem="Gfj-Il-4OG" firstAttribute="top" secondItem="RPX-4k-xCG" secondAttribute="bottom" constant="205" id="TWY-Bh-BwY"/>
+                            <constraint firstItem="R3c-WH-nAS" firstAttribute="top" secondItem="RPX-4k-xCG" secondAttribute="bottom" constant="28" id="Tah-qo-bIj"/>
+                            <constraint firstItem="BeU-Co-6Wo" firstAttribute="leading" secondItem="e8r-9i-IDf" secondAttribute="leadingMargin" constant="30" id="bch-iC-AsN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R3c-WH-nAS" secondAttribute="trailing" constant="100" id="rbD-fg-VIC"/>
+                            <constraint firstItem="RPX-4k-xCG" firstAttribute="leading" secondItem="e8r-9i-IDf" secondAttribute="leadingMargin" id="uI9-uZ-jY2"/>
+                            <constraint firstItem="RPX-4k-xCG" firstAttribute="trailing" secondItem="e8r-9i-IDf" secondAttribute="trailingMargin" id="vYP-9I-km7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BeU-Co-6Wo" secondAttribute="trailing" constant="30" id="yQv-aL-t6R"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q4n-LN-F6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-664" y="-803"/>
+        </scene>
         <!--Master-->
         <scene sceneID="cUi-kZ-frf">
             <objects>
@@ -17,12 +71,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eq9-QA-ai8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-148" y="64"/>
+            <point key="canvasLocation" x="220" y="-852"/>
         </scene>
         <!--Master-->
         <scene sceneID="VgW-fR-Quf">
             <objects>
-                <tableViewController title="Master" id="pGg-6v-bdr" customClass="MasterViewController" customModuleProvider="" sceneMemberID="viewController">
+                <tableViewController title="Master" id="pGg-6v-bdr" customClass="MasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mLL-gJ-YKr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,7 +93,7 @@
                                             <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
                                     </subviews>
@@ -65,7 +119,7 @@
         <!--Detail-->
         <scene sceneID="Cn3-H9-jdl">
             <objects>
-                <viewController title="Detail" id="Ah7-4n-0Wa" customClass="DetailViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController title="Detail" id="Ah7-4n-0Wa" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cIm-e0-J51"/>
                         <viewControllerLayoutGuide type="bottom" id="a0L-h9-sNL"/>
@@ -78,7 +132,7 @@
                                 <rect key="frame" x="20" y="292" width="560" height="17"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -99,4 +153,7 @@
             <point key="canvasLocation" x="1343" y="64"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="alucomex.png" width="208" height="124"/>
+    </resources>
 </document>

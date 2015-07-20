@@ -8,6 +8,7 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "WelcomeViewController.h"
 
 @interface MasterViewController ()
 
@@ -27,6 +28,10 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    
+    //WelcomeViewController *pantallaInicio = [[WelcomeViewController alloc] init];
+    //[self.navigationController showViewController:pantallaInicio sender:nil];
+    //[self.navigationController pushViewController:pantallaInicio animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
