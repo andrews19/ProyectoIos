@@ -9,6 +9,8 @@
 #import "WelcomeViewController.h"
 #import "MasterViewController.h"
 
+
+
 @interface WelcomeViewController ()
 
 @end
@@ -23,6 +25,11 @@
 }*/
 - (void)viewDidLoad {
     [super viewDidLoad];
+    /*bool verdad=true;
+    if (verdad) {
+        <#statements#>
+    }*/
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -43,11 +50,6 @@
 */
 
 - (IBAction)siguiente:(id)sender {
-    MasterViewController *siguiente = [[MasterViewController alloc] init];
-    [self presentViewController:siguiente animated:YES completion:nil];
-    
-    //UIStoryboardSegue *next = [[UIStoryboardSegue alloc]initWithIdentifier:@"principalNav" source:self destination:nil];
-    
-   // [self prepareForSegue:next sender:self];
+   [[NSUserDefaults standardUserDefaults] setInteger:1 forKey:@"IniciaPrimerVez"];
 }
 @end

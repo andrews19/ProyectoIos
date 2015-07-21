@@ -17,6 +17,8 @@
 		2ED7FF831B5D730000ACF4DC /* alucomex.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ED7FF821B5D730000ACF4DC /* alucomex.png */; };
 		2ED7FF8A1B5D877500ACF4DC /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED7FF881B5D877500ACF4DC /* WelcomeViewController.m */; };
 		2ED7FF8B1B5D877500ACF4DC /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED7FF891B5D877500ACF4DC /* WelcomeView.xib */; };
+		2EDF68B81B5EEBB6000044F8 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF68B71B5EEBB6000044F8 /* Services.m */; };
+		2EDF68BC1B5EFDD2000044F8 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF68BB1B5EFDD2000044F8 /* Color.m */; };
 		8BC61FAB3805C56CED3870E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9031D49644290BDBEDC3DC0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +40,6 @@
 		2EBFE1011B59B4040069F37A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2EBFE1031B59B4040069F37A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		2EBFE1041B59B4040069F37A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		2EBFE1061B59B4040069F37A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		2EBFE10A1B59B4040069F37A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EBFE10C1B59B4040069F37A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2EBFE10F1B59B4040069F37A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -49,6 +50,10 @@
 		2ED7FF871B5D877500ACF4DC /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		2ED7FF881B5D877500ACF4DC /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		2ED7FF891B5D877500ACF4DC /* WelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		2EDF68B61B5EEBB6000044F8 /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
+		2EDF68B71B5EEBB6000044F8 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		2EDF68BA1B5EFDD2000044F8 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		2EDF68BB1B5EFDD2000044F8 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
 		B9031D49644290BDBEDC3DC0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4276C9BB86877E11DC6E124 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DFA8421633DED4C2B65A2288 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,11 +101,13 @@
 		2EBFE0FB1B59B4040069F37A /* ProyectoIos */ = {
 			isa = PBXGroup;
 			children = (
+				2EDF68B91B5EF02C000044F8 /* API */,
+				2EDF687E1B5EE607000044F8 /* Model */,
+				2EDF687D1B5EE5FF000044F8 /* Controller */,
 				2EBFE1001B59B4040069F37A /* AppDelegate.h */,
 				2EBFE1011B59B4040069F37A /* AppDelegate.m */,
 				2EBFE1031B59B4040069F37A /* MasterViewController.h */,
 				2EBFE1041B59B4040069F37A /* MasterViewController.m */,
-				2EBFE1061B59B4040069F37A /* DetailViewController.h */,
 				2EBFE1091B59B4040069F37A /* Main.storyboard */,
 				2EBFE10C1B59B4040069F37A /* Images.xcassets */,
 				2EBFE10E1B59B4040069F37A /* LaunchScreen.xib */,
@@ -137,6 +144,31 @@
 				2EBFE11A1B59B4040069F37A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EDF687D1B5EE5FF000044F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2EDF687E1B5EE607000044F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF68BA1B5EFDD2000044F8 /* Color.h */,
+				2EDF68BB1B5EFDD2000044F8 /* Color.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2EDF68B91B5EF02C000044F8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF68B71B5EEBB6000044F8 /* Services.m */,
+				2EDF68B61B5EEBB6000044F8 /* Services.h */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 		62EC456C701093F4EBA8899D /* Pods */ = {
@@ -295,6 +327,8 @@
 			files = (
 				2EBFE1021B59B4040069F37A /* AppDelegate.m in Sources */,
 				2ED7FF8A1B5D877500ACF4DC /* WelcomeViewController.m in Sources */,
+				2EDF68B81B5EEBB6000044F8 /* Services.m in Sources */,
+				2EDF68BC1B5EFDD2000044F8 /* Color.m in Sources */,
 				2EBFE1051B59B4040069F37A /* MasterViewController.m in Sources */,
 				2EBFE0FF1B59B4040069F37A /* main.m in Sources */,
 			);

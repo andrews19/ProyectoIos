@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import "MasterViewController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -16,8 +19,23 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+    //Inicia X pantalla, si es la primera vez que se inicia la APP
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    NSInteger isFirst = [[NSUserDefaults standardUserDefaults] integerForKey:@"IniciaPrimerVez"];
+    UIViewController *viewController;
+    
+    if (isFirst == 1) {
+        viewController = [storyboard instantiateViewControllerWithIdentifier:@"pantallaDos"];
+    } else {
+       viewController = [storyboard instantiateViewControllerWithIdentifier:@"pantallaUno"];
+    }
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
+    //Fin... X pantalla,
+    
     return YES;
 }
 

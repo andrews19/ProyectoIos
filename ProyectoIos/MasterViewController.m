@@ -9,7 +9,7 @@
 #import "MasterViewController.h"
 #import "DetailViewController.h"
 #import "WelcomeViewController.h"
-
+#import "Services.h"
 @interface MasterViewController ()
 
 @property NSMutableArray *objects;
@@ -29,9 +29,8 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     
-    //WelcomeViewController *pantallaInicio = [[WelcomeViewController alloc] init];
-    //[self.navigationController showViewController:pantallaInicio sender:nil];
-    //[self.navigationController pushViewController:pantallaInicio animated:YES];
+    Services *service = [[Services alloc]init];
+    [service getColors];
 }
 
 - (void)didReceiveMemoryWarning {
