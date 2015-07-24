@@ -11,5 +11,8 @@
 
 @interface Services : NSObject
 
--(void)getColors;
+@property (nonatomic, strong) NSMutableArray *arrayColores;
+-(NSMutableArray *)getColors;
+- (NSData *)descargaImagen;
+-(NSMutableArray *)getColorsTwo ;
 @end

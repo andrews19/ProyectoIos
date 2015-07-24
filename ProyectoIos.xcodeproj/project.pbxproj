@@ -19,6 +19,19 @@
 		2ED7FF8B1B5D877500ACF4DC /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED7FF891B5D877500ACF4DC /* WelcomeView.xib */; };
 		2EDF68B81B5EEBB6000044F8 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF68B71B5EEBB6000044F8 /* Services.m */; };
 		2EDF68BC1B5EFDD2000044F8 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF68BB1B5EFDD2000044F8 /* Color.m */; };
+		2EDFD5E61B5FF43900E67A79 /* ARSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD5E51B5FF43900E67A79 /* ARSPopover.m */; };
+		2EDFD6341B6190FC00E67A79 /* CeldaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6331B6190FC00E67A79 /* CeldaView.m */; };
+		2EDFD6371B61915F00E67A79 /* CollectionColoresController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFD6361B61915F00E67A79 /* CollectionColoresController.m */; };
+		2EDFD6401B61919900E67A79 /* im_buho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EDFD6381B61919900E67A79 /* im_buho.jpg */; };
+		2EDFD6411B61919900E67A79 /* im_colibri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EDFD6391B61919900E67A79 /* im_colibri.jpg */; };
+		2EDFD6421B61919900E67A79 /* im_cuervo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2EDFD63A1B61919900E67A79 /* im_cuervo.JPG */; };
+		2EDFD6431B61919900E67A79 /* im_flamenco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EDFD63B1B61919900E67A79 /* im_flamenco.jpg */; };
+		2EDFD6441B61919900E67A79 /* im_kiwi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EDFD63C1B61919900E67A79 /* im_kiwi.jpg */; };
+		2EDFD6451B61919900E67A79 /* im_loro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EDFD63D1B61919900E67A79 /* im_loro.jpg */; };
+		2EDFD6461B61919900E67A79 /* im_pavo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EDFD63E1B61919900E67A79 /* im_pavo.jpg */; };
+		2EDFD6471B61919900E67A79 /* im_pinguino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EDFD63F1B61919900E67A79 /* im_pinguino.jpg */; };
+		2EE3427A1B62D4B1007D89C9 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE342781B62D4B1007D89C9 /* DetailsViewController.m */; };
+		2EE3427B1B62D4B1007D89C9 /* DetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE342791B62D4B1007D89C9 /* DetailsView.xib */; };
 		8BC61FAB3805C56CED3870E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9031D49644290BDBEDC3DC0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +67,23 @@
 		2EDF68B71B5EEBB6000044F8 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
 		2EDF68BA1B5EFDD2000044F8 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		2EDF68BB1B5EFDD2000044F8 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		2EDFD5E41B5FF43900E67A79 /* ARSPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSPopover.h; sourceTree = "<group>"; };
+		2EDFD5E51B5FF43900E67A79 /* ARSPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 10; lastKnownFileType = sourcecode.c.objc; path = ARSPopover.m; sourceTree = "<group>"; tabWidth = 10; };
+		2EDFD6321B6190FC00E67A79 /* CeldaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeldaView.h; sourceTree = "<group>"; };
+		2EDFD6331B6190FC00E67A79 /* CeldaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeldaView.m; sourceTree = "<group>"; };
+		2EDFD6351B61915F00E67A79 /* CollectionColoresController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionColoresController.h; sourceTree = "<group>"; };
+		2EDFD6361B61915F00E67A79 /* CollectionColoresController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionColoresController.m; sourceTree = "<group>"; };
+		2EDFD6381B61919900E67A79 /* im_buho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_buho.jpg; sourceTree = "<group>"; };
+		2EDFD6391B61919900E67A79 /* im_colibri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_colibri.jpg; sourceTree = "<group>"; };
+		2EDFD63A1B61919900E67A79 /* im_cuervo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_cuervo.JPG; sourceTree = "<group>"; };
+		2EDFD63B1B61919900E67A79 /* im_flamenco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_flamenco.jpg; sourceTree = "<group>"; };
+		2EDFD63C1B61919900E67A79 /* im_kiwi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_kiwi.jpg; sourceTree = "<group>"; };
+		2EDFD63D1B61919900E67A79 /* im_loro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_loro.jpg; sourceTree = "<group>"; };
+		2EDFD63E1B61919900E67A79 /* im_pavo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_pavo.jpg; sourceTree = "<group>"; };
+		2EDFD63F1B61919900E67A79 /* im_pinguino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_pinguino.jpg; sourceTree = "<group>"; };
+		2EE342771B62D4B1007D89C9 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		2EE342781B62D4B1007D89C9 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		2EE342791B62D4B1007D89C9 /* DetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsView.xib; sourceTree = "<group>"; };
 		B9031D49644290BDBEDC3DC0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4276C9BB86877E11DC6E124 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DFA8421633DED4C2B65A2288 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,20 +131,13 @@
 		2EBFE0FB1B59B4040069F37A /* ProyectoIos */ = {
 			isa = PBXGroup;
 			children = (
+				2EE342761B62D421007D89C9 /* Delegate */,
+				2EE342751B62D3FB007D89C9 /* View */,
 				2EDF68B91B5EF02C000044F8 /* API */,
 				2EDF687E1B5EE607000044F8 /* Model */,
 				2EDF687D1B5EE5FF000044F8 /* Controller */,
-				2EBFE1001B59B4040069F37A /* AppDelegate.h */,
-				2EBFE1011B59B4040069F37A /* AppDelegate.m */,
-				2EBFE1031B59B4040069F37A /* MasterViewController.h */,
-				2EBFE1041B59B4040069F37A /* MasterViewController.m */,
-				2EBFE1091B59B4040069F37A /* Main.storyboard */,
 				2EBFE10C1B59B4040069F37A /* Images.xcassets */,
-				2EBFE10E1B59B4040069F37A /* LaunchScreen.xib */,
 				2EBFE0FC1B59B4040069F37A /* Supporting Files */,
-				2ED7FF871B5D877500ACF4DC /* WelcomeViewController.h */,
-				2ED7FF881B5D877500ACF4DC /* WelcomeViewController.m */,
-				2ED7FF891B5D877500ACF4DC /* WelcomeView.xib */,
 			);
 			path = ProyectoIos;
 			sourceTree = "<group>";
@@ -122,6 +145,14 @@
 		2EBFE0FC1B59B4040069F37A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2EDFD6381B61919900E67A79 /* im_buho.jpg */,
+				2EDFD6391B61919900E67A79 /* im_colibri.jpg */,
+				2EDFD63A1B61919900E67A79 /* im_cuervo.JPG */,
+				2EDFD63B1B61919900E67A79 /* im_flamenco.jpg */,
+				2EDFD63C1B61919900E67A79 /* im_kiwi.jpg */,
+				2EDFD63D1B61919900E67A79 /* im_loro.jpg */,
+				2EDFD63E1B61919900E67A79 /* im_pavo.jpg */,
+				2EDFD63F1B61919900E67A79 /* im_pinguino.jpg */,
 				2ED7FF821B5D730000ACF4DC /* alucomex.png */,
 				2EBFE0FD1B59B4040069F37A /* Info.plist */,
 				2EBFE0FE1B59B4040069F37A /* main.m */,
@@ -149,6 +180,16 @@
 		2EDF687D1B5EE5FF000044F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2EE342771B62D4B1007D89C9 /* DetailsViewController.h */,
+				2EE342781B62D4B1007D89C9 /* DetailsViewController.m */,
+				2EDFD5E41B5FF43900E67A79 /* ARSPopover.h */,
+				2EDFD5E51B5FF43900E67A79 /* ARSPopover.m */,
+				2EDFD6361B61915F00E67A79 /* CollectionColoresController.m */,
+				2EDFD6351B61915F00E67A79 /* CollectionColoresController.h */,
+				2ED7FF881B5D877500ACF4DC /* WelcomeViewController.m */,
+				2ED7FF871B5D877500ACF4DC /* WelcomeViewController.h */,
+				2EBFE1041B59B4040069F37A /* MasterViewController.m */,
+				2EBFE1031B59B4040069F37A /* MasterViewController.h */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -169,6 +210,28 @@
 				2EDF68B61B5EEBB6000044F8 /* Services.h */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		2EE342751B62D3FB007D89C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EE342791B62D4B1007D89C9 /* DetailsView.xib */,
+				2EDFD6331B6190FC00E67A79 /* CeldaView.m */,
+				2EDFD6321B6190FC00E67A79 /* CeldaView.h */,
+				2EBFE1091B59B4040069F37A /* Main.storyboard */,
+				2EBFE10E1B59B4040069F37A /* LaunchScreen.xib */,
+				2ED7FF891B5D877500ACF4DC /* WelcomeView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2EE342761B62D421007D89C9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2EBFE1011B59B4040069F37A /* AppDelegate.m */,
+				2EBFE1001B59B4040069F37A /* AppDelegate.h */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 		62EC456C701093F4EBA8899D /* Pods */ = {
@@ -271,8 +334,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED7FF8B1B5D877500ACF4DC /* WelcomeView.xib in Resources */,
+				2EDFD6401B61919900E67A79 /* im_buho.jpg in Resources */,
+				2EDFD6471B61919900E67A79 /* im_pinguino.jpg in Resources */,
 				2EBFE10B1B59B4040069F37A /* Main.storyboard in Resources */,
+				2EDFD6411B61919900E67A79 /* im_colibri.jpg in Resources */,
+				2EDFD6431B61919900E67A79 /* im_flamenco.jpg in Resources */,
+				2EDFD6451B61919900E67A79 /* im_loro.jpg in Resources */,
+				2EE3427B1B62D4B1007D89C9 /* DetailsView.xib in Resources */,
+				2EDFD6441B61919900E67A79 /* im_kiwi.jpg in Resources */,
 				2ED7FF831B5D730000ACF4DC /* alucomex.png in Resources */,
+				2EDFD6421B61919900E67A79 /* im_cuervo.JPG in Resources */,
+				2EDFD6461B61919900E67A79 /* im_pavo.jpg in Resources */,
 				2EBFE1101B59B4040069F37A /* LaunchScreen.xib in Resources */,
 				2EBFE10D1B59B4040069F37A /* Images.xcassets in Resources */,
 			);
@@ -326,10 +398,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EBFE1021B59B4040069F37A /* AppDelegate.m in Sources */,
+				2EE3427A1B62D4B1007D89C9 /* DetailsViewController.m in Sources */,
 				2ED7FF8A1B5D877500ACF4DC /* WelcomeViewController.m in Sources */,
+				2EDFD6341B6190FC00E67A79 /* CeldaView.m in Sources */,
 				2EDF68B81B5EEBB6000044F8 /* Services.m in Sources */,
 				2EDF68BC1B5EFDD2000044F8 /* Color.m in Sources */,
 				2EBFE1051B59B4040069F37A /* MasterViewController.m in Sources */,
+				2EDFD5E61B5FF43900E67A79 /* ARSPopover.m in Sources */,
+				2EDFD6371B61915F00E67A79 /* CollectionColoresController.m in Sources */,
 				2EBFE0FF1B59B4040069F37A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

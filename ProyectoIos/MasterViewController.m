@@ -10,12 +10,26 @@
 #import "DetailViewController.h"
 #import "WelcomeViewController.h"
 #import "Services.h"
+#import "ARSPopover.h"
 @interface MasterViewController ()
 
 @property NSMutableArray *objects;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *button;
 @end
 
 @implementation MasterViewController
+
+- (IBAction)showPopover:(id)sender {
+    ARSPopover *popoverController = [[ARSPopover alloc] init];
+    popoverController.sourceView = self.button;
+    popoverController.sourceRect = CGRectMake(CGRectGetMidX(self.button.bounds), CGRectGetMaxY(self.button.bounds), 0, 0);
+    popoverController.contentSize = CGSizeMake(150, 93);
+    popoverController.arrowDirection = UIPopoverArrowDirectionUp;
+    
+    [self presentViewController:popoverController animated:YES completion:nil];
+}
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -29,8 +43,8 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     
-    Services *service = [[Services alloc]init];
-    [service getColors];
+    //Services *service = [[Services alloc]init];
+   // [service getColors];
 }
 
 - (void)didReceiveMemoryWarning {
